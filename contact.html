@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly Realty</title>
+
+    <link href="projectStyles.css" rel="stylesheet">
+    <link href="NavStyles/navStyle2.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+    <div class="container">
+
+        <header class="item">
+            
+            <img src="images/houseLogo.png" alt="house logo">
+            <h1>Kelly Realty</h1>
+
+        </header>
+
+        <nav class="item">
+            
+            <a href="index.html">Home</a>
+            <a href="propertyList.html">Available Properties</a>
+            <a href="contact.html">Contact</a>
+            <a href="siteMap.html">Site Map & Credits</a>
+
+        </nav>
+
+        <main class="item">
+
+            <h2>Contact Us for Your Dream House</h2>
+
+            <form action="mailto:kelly@kelly.k" target="_blank" class="contactForm">
+
+            <label for="clientFirstName">First Name : </label>
+            <input type="text" id="clientFirstName" name="clientFirstName">
+
+            <label for="clientLastName">Last Name : </label>
+            <input type="text" id="clientLastName" name="clientLastName">
+
+            <label for="clientPhone">Phone No. : </label>
+            <input type="text" id="clientPhone" name="clientPhone">
+
+            <label for="clientMail">E-Mail : </label>
+            <input type="text" id="clientMail" name="clientMail">
+
+            <label for="clientType">Type of Property(house or condo) : </label><br>
+            <input type="radio" id="clientType" name="clientType" class="radio"> House
+            <input type="radio" id="clientType" name="clientType" class="radio"> Condominium
+            <br>
+
+            <label for="clientBed">Number of Bedrooms : </label>
+            <input type="number" id="clientBed" name="clientBed" min="1" max="10" class="number">
+
+            <label for="clientBath">Number of Bathrooms : </label>
+            <input type="number" id="clientBath" name="clientBath" min="1" max="10" class="number">
+
+            <label for="clientPrice">Price Range( $100 ~ $50,000 ) : </label>
+            <input type="range" id="clientPrice" name="clientPrice" step="100" min="100" max="50000">
+
+            <label for="clientComment">Additional Comment : </label>
+            <textarea id="clientComment" name="clientComment" class="comment"></textarea>
+
+            <br>
+            <input type="submit" id="submitSurvey" value="SUBMIT" class="button">
+            <input type="reset" id="resetSurvey" value="RESET" class="button">
+
+            </form>
+        
+        </main>
+
+        <div class="item profile">
+           
+            <img src="images/profile.jpg" alt="profile pic">
+            <h4>Kelly Smith</h4>
+            <p>Cell. : (123) 456-7890 </p>
+            <p>E-Mail : <a href="mailto:kelly@kelly.k" target="_blank">kelly@kelly.k</a></p>
+        
+        </div>
+
+        <footer class="item">
+            
+            <p>Copyright &copy; 2022 Centennial College Web Interface Design 
+                COMP213-007 / MinYoung Seol / Student ID : 301203510 / 
+                Individual Project all rights reserved.
+            </p>
+        
+        </footer>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
